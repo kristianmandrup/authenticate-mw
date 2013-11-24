@@ -1,0 +1,49 @@
+{
+    "name":     "authenticate-mw",
+    "version":  "0.0.1",
+    "main":     "./index.js",
+    "author":   "Kristian Mandrup <kmandrup@gmail.com>",
+    "description": "authenticate middleware for node.js (default passport.js)",
+    "contributors": [
+        {
+            "name":   "Kristian Mandrup",
+            "email":  "kmandrup@gmail.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url":  "https://github.com/kristianmandrup/authenticate-mw.git"
+    },
+    "keywords": [
+        "middleware",
+        "authentication",
+        "passport"
+    ],
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "lodash":               "*",
+        "LiveScript":           "*",
+        "inflection":           "*",
+        "rubyjs":               "*",
+        "prelude-ls":           "*",
+
+        "express":              "*",
+
+        "passport":             "*",
+        "passport-local":       "*",
+        "passport-facebook":    "*",
+
+        "middleware":           "git://github.com/kristianmandrup/middleware.git"
+    },
+    "devDependencies": {
+        "mocha":            "*",
+        "should":           "*",
+        "chai":             "*"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.10"
+    }
+}
