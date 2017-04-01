@@ -1,5 +1,7 @@
 # Authentication middleware
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristianmandrup/authenticate-mw.svg)](https://greenkeeper.io/)
+
 Authentication middleware for Node.js (by default) using Passport.js
 
 ## Install
